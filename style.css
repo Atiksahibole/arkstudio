@@ -42,3 +42,23 @@ body{
 .text{
     margin-left: 30px;
 }
+#arkstuff{
+    background-color: grey;
+    width: 100%;
+}
+/* .second-div{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+} */
+.template-gridcontainer {
+    display: grid;
+    grid-gap:0px 15px;
+    display: inline grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.third-div{
+    width: 100px;
+    height: 100px;
+}
