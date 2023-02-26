@@ -42,27 +42,64 @@ body{
 .text{
     margin-left: 30px;
 }
-#arkstuff{
+.second-div{
     background-color: grey;
-    width: 100%;
+    margin: auto;
+    width: 50%;
+    height: 388px;
 }
-/* .second-div{
+.template-h1{
+    text-align: center;
+}
+.img-separator{
     display: flex;
     justify-content: center;
-    background-color: grey;
-} */
+}
+
 .template-gridcontainer {
     display: grid;
-    grid-gap:0px 15px;
-    display: inline grid;
+    /* display: inline grid; */
     grid-template-columns: auto auto auto;
     text-align: center;
+    justify-content: space-between;
+}
+.s1, .s2, .s3{
+    border: 1px solid black;
+    margin-bottom: 205px;
+    margin-top: 10px;
+    padding-top: 55px;
+}
+/* .s1, .s2, .s3{
+    display: flex;
+    justify-content: space-around;
+} */
+.flex-photo-img{
+    width: 388px;
+    height: 388px;
 }
 .third-div{
-    /* display: flex;
-    text-align: center;
-    width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.test-h1{
+    text-align: center;
+}
+.fourth-div{
+    background-color: gray;
+    margin: auto;
+    width: 50%;
+}
+.fifthdiv{
+    display: flex;
+    justify-content: center;
+    background-color: #f1eded;
+}
+.testomail-grid{ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.fifthdiv-brand{
+    padding: 0px 10px;
 }
