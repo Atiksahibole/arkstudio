@@ -134,8 +134,10 @@ color: white;
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
+    margin: 40px 387px;
+    margin-bottom: 0%;
+    height: 220px;
 }
 .company-list, .support-list{
     list-style: none;
-    /* padding: 0px 10px; */
 }
