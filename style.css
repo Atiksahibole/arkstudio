@@ -48,7 +48,7 @@ body{
     width: 50%;
     height: 388px;
 }
-#arkstuff, h3{
+#arkstuff, .ark-text{
     margin-top: 0%;
 }
 .template-h1{
@@ -109,4 +109,33 @@ body{
 }
 .fifthdiv-brand{
     padding: 0px 10px;
+}
+.sixthdiv {
+/* display: flex; */
+/* justify-content: center; */
+/* text-align: center;
+margin: auto; */
+background-color: black;
+color: white;
+/* margin: auto; */
+}
+.submit-button{
+    padding: 10px;
+}
+.footer-header{
+    display: flex;
+    justify-content: center;
+    background: gray;
+    align-items: center;
+    /* margin: 0px 409px; */
+    height: 63px;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+.company-list, .support-list{
+    list-style: none;
+    /* padding: 0px 10px; */
 }
